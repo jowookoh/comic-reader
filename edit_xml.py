@@ -2,7 +2,7 @@
 from xml.etree import ElementTree as et
 import glob
 
-for i in glob.glob('sss/*.xml'):
+for i in glob.glob('prep_za_xml/*.xml'):
     tree=et.parse(i)     
     root = tree.getroot()
     folder=root.findall('folder')[0]
