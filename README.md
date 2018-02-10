@@ -16,4 +16,4 @@ Da bi se kod za **detekciju i prepoznavanje lica** mogao pokrenuti potrebno je:
 5) konfiguraciju tiny-yolo-voc-3c.cfg premestiti u cfg direktorijum sa ostalim konfiguracijama
 6) tezine koje sam ja dobio treniranjem mreze imaju 3.7gb i nisam ih postavio ovde tako da je neophodno istrenirati svoje tezine
 7) istrenirati tezine pomocu komande python flow --model cfg/tiny-yolo-voc-3c.cfg --load bin/tiny-yolo-voc.weights --train --annotation annotations --dataset images 
-8) pokrenuti recognize skriptu
+8) pokrenuti recognize.py skriptu
