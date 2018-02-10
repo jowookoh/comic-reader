@@ -2,7 +2,7 @@
 
 Ovaj repozitorijum sadrzi kod i materijale za prepoznavanje lica i teksta u stripu Alan Ford
 
-u direkotrijumu results nalaze se primeri dobrog rada programa
+U direkotrijumu results nalaze se primeri dobrog rada programa
 
 Da bi se kod za **prepoznavanje teksta** mogao pokrenuti potrebno je:
 1) instalirati tensorflow, opencv i keras
