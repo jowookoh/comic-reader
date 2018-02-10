@@ -2,10 +2,12 @@
 
 Ovaj repozitorijum sadrzi kod i materijale za prepoznavanje lica i teksta u stripu Alan Ford
 
+u direkotrijumu results nalaze se primeri dobrog rada programa
+
 Da bi se kod za **prepoznavanje teksta** mogao pokrenuti potrebno je:
 1) instalirati tensorflow, opencv i keras
 2) koristiti vec istrenirani model ANN za prepoznavanje slova - my_model.h5 (ili istrenirati novi model uz pomoc ocr_net.py skripte)
-3) pokrenuti skriptu read_text
+3) pokrenuti skriptu read_text.py
 
 
 Da bi se kod za **detekciju i prepoznavanje lica** mogao pokrenuti potrebno je:
