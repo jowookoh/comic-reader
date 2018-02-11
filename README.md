@@ -16,7 +16,7 @@ Da bi se kod za **detekciju i prepoznavanje lica** mogao pokrenuti potrebno je:
 3) preuzeti tiny-yolo-voc weights sa sajta https://pjreddie.com/darknet/yolo/ i smestiti ih u bin direktorijum
 4) instalirati cython pomocu python3 setup.py build_ext --inplace
 5) konfiguraciju tiny-yolo-voc-3c.cfg premestiti u cfg direktorijum sa ostalim konfiguracijama
-6) tezine koje sam ja dobio treniranjem mreze imaju 3.7gb i nisam ih postavio ovde tako da je neophodno istrenirati svoje tezine
+6) moguce je koristiti tezine koje sam ja dobio treniranjem mreze ili istrenirati svoje tezine
 7) istrenirati tezine pomocu komande python flow --model cfg/tiny-yolo-voc-3c.cfg --load bin/tiny-yolo-voc.weights --train --annotation annotations --dataset images 
 8) u skripti recognize.py, zameniti vrednost 4000 u recniku options sa vrednoscu koja je najveca u ckpt direktorijumu (istrenirane tezine) se automatski smestaju u ckpt)
 8) pokrenuti recognize.py skriptu
